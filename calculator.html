@@ -234,7 +234,7 @@
                 }
 
                 expressionEl.textContent = currentInput + ' =';
-                // 避免浮点数精度问题的事吗哈哈哈---
+                // 避免浮点数精度问题的事吗哈哈哈---111
                 const result = Number.isInteger(evaluated)
                     ? evaluated.toString()
                     : parseFloat(evaluated.toFixed(10)).toString();
